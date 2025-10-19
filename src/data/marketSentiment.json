@@ -1,0 +1,81 @@
+{
+  "currentSentiment": {
+    "value": 72,
+    "label": "Greed",
+    "description": "Market showing strong bullish signals with high trading volumes",
+    "lastUpdated": "2024-10-19T10:30:00Z"
+  },
+  "sentimentRanges": [
+    {
+      "name": "Extreme Fear",
+      "range": "0-25",
+      "value": 25,
+      "color": "#DC2626",
+      "description": "Panic selling, maximum pessimism",
+      "indicators": [
+        "High volatility",
+        "Negative news sentiment",
+        "Large institutional sell-offs"
+      ]
+    },
+    {
+      "name": "Fear",
+      "range": "25-50",
+      "value": 25,
+      "color": "#F97316",
+      "description": "Cautious market, risk-off sentiment",
+      "indicators": [
+        "Moderate volatility",
+        "Mixed news sentiment",
+        "Profit taking activities"
+      ]
+    },
+    {
+      "name": "Greed",
+      "range": "50-75",
+      "value": 25,
+      "color": "#22C55E",
+      "description": "Optimistic market, risk-on sentiment",
+      "indicators": [
+        "Rising prices",
+        "Positive news sentiment",
+        "Increased buying pressure"
+      ]
+    },
+    {
+      "name": "Extreme Greed",
+      "range": "75-100",
+      "value": 25,
+      "color": "#16A34A",
+      "description": "Euphoric market, potential overvaluation",
+      "indicators": [
+        "Parabolic price movements",
+        "Excessive optimism",
+        "FOMO (Fear of Missing Out)"
+      ]
+    }
+  ],
+  "historicalData": [
+    { "date": "2024-10-12", "sentiment": 65, "label": "Greed" },
+    { "date": "2024-10-13", "sentiment": 68, "label": "Greed" },
+    { "date": "2024-10-14", "sentiment": 58, "label": "Greed" },
+    { "date": "2024-10-15", "sentiment": 62, "label": "Greed" },
+    { "date": "2024-10-16", "sentiment": 70, "label": "Greed" },
+    { "date": "2024-10-17", "sentiment": 73, "label": "Greed" },
+    { "date": "2024-10-18", "sentiment": 71, "label": "Greed" },
+    { "date": "2024-10-19", "sentiment": 72, "label": "Greed" }
+  ],
+  "marketMetrics": {
+    "sp500Change": "+2.3%",
+    "vixLevel": 14.5,
+    "putCallRatio": 0.82,
+    "advanceDeclineRatio": 1.85,
+    "newHighsNewLows": 145
+  },
+  "recommendation": {
+    "action": "Monitor",
+    "message": "Current greed levels suggest strong market momentum. Consider taking some profits and maintaining diversified positions.",
+    "riskLevel": "Moderate"
+  }
+}
+
