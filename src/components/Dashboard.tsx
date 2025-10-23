@@ -5,7 +5,7 @@ import FPISectorChart from './FPISectorChart'
 import marketSentiment from '@/data/marketSentiment.json'
 
 export default function Dashboard() {
-  const { currentSentiment, sentimentRanges } = marketSentiment
+  const { currentSentiment, sentimentRanges, lastUpdated } = marketSentiment
 
   const getSentimentColor = (value: number) => {
     if (value <= 25) return '#DC2626'
@@ -28,7 +28,7 @@ export default function Dashboard() {
           <div className="text-right">
             <p className="text-xs text-white/60">Published</p>
             <p className="text-sm text-white font-medium">
-              {new Date(currentSentiment.lastUpdated).toLocaleString('en-US', {
+              {new Date(lastUpdated).toLocaleString('en-US', {
                 month: 'short',
                 day: 'numeric',
                 year: 'numeric',
@@ -50,9 +50,7 @@ export default function Dashboard() {
             segments={sentimentRanges.map(range => ({
               name: range.name,
               value: range.value,
-              fill: range.color,
-              description: range.description,
-              indicators: range.indicators
+              fill: range.color
             }))}
           />
           
@@ -65,12 +63,11 @@ export default function Dashboard() {
             >
               {currentSentiment.label}
             </p>
-            <p className="text-sm text-gray-500">{currentSentiment.description}</p>
             
             {/* Last Updated */}
             <div className="mt-3 pt-3 border-t border-gray-200">
               <p className="text-xs text-gray-400">
-                Last Updated: {new Date(currentSentiment.lastUpdated).toLocaleString('en-US', {
+                Last Updated: {new Date(lastUpdated).toLocaleString('en-US', {
                   month: 'short',
                   day: 'numeric',
                   year: 'numeric',
