@@ -214,6 +214,112 @@
         "topSector": "Financial Services",
         "highestNetInvestment": "Capital Goods"
       }
+    },
+    {
+      "reportDate": "2025-10-15",
+      "previousReportDate": "2025-09-30",
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "previousAuc": 2205698,
+          "currentAuc": 2302829,
+          "aucDifference": 97131,
+          "previousNetInvestment": -642,
+          "currentNetInvestment": 8276,
+          "netInvestmentDifference": 8918
+        },
+        {
+          "sector": "Automobile and Auto Components",
+          "previousAuc": 569410,
+          "currentAuc": 558431,
+          "aucDifference": -10979,
+          "previousNetInvestment": 1733,
+          "currentNetInvestment": 1560,
+          "netInvestmentDifference": -173
+        },
+        {
+          "sector": "Information Technology",
+          "previousAuc": 489214,
+          "currentAuc": 508584,
+          "aucDifference": 19370,
+          "previousNetInvestment": -4036,
+          "currentNetInvestment": -1927,
+          "netInvestmentDifference": 2109
+        },
+        {
+          "sector": "Oil, Gas & Consumable Fuels",
+          "previousAuc": 493881,
+          "currentAuc": 499285,
+          "aucDifference": 5404,
+          "previousNetInvestment": 728,
+          "currentNetInvestment": 1086,
+          "netInvestmentDifference": 358
+        },
+        {
+          "sector": "Healthcare",
+          "previousAuc": 471040,
+          "currentAuc": 485477,
+          "aucDifference": 14437,
+          "previousNetInvestment": -4521,
+          "currentNetInvestment": -2739,
+          "netInvestmentDifference": 1782
+        },
+        {
+          "sector": "Capital Goods",
+          "previousAuc": 390619,
+          "currentAuc": 392533,
+          "aucDifference": 1914,
+          "previousNetInvestment": 1492,
+          "currentNetInvestment": -851,
+          "netInvestmentDifference": -2343
+        },
+        {
+          "sector": "Fast Moving Consumer Goods",
+          "previousAuc": 382507,
+          "currentAuc": 378761,
+          "aucDifference": -3746,
+          "previousNetInvestment": -3110,
+          "currentNetInvestment": -2992,
+          "netInvestmentDifference": 118
+        },
+        {
+          "sector": "Telecommunication",
+          "previousAuc": 345086,
+          "currentAuc": 361872,
+          "aucDifference": 16786,
+          "previousNetInvestment": -917,
+          "currentNetInvestment": 73,
+          "netInvestmentDifference": 990
+        },
+        {
+          "sector": "Consumer Services",
+          "previousAuc": 322971,
+          "currentAuc": 332396,
+          "aucDifference": 9425,
+          "previousNetInvestment": -114,
+          "currentNetInvestment": -1785,
+          "netInvestmentDifference": -1671
+        },
+        {
+          "sector": "Power",
+          "previousAuc": 239362,
+          "currentAuc": 248623,
+          "aucDifference": 9261,
+          "previousNetInvestment": -586,
+          "currentNetInvestment": 1103,
+          "netInvestmentDifference": 1689
+        }
+      ],
+      "summary": {
+        "previousTotalAuc": 5909788,
+        "currentTotalAuc": 6068791,
+        "aucDifference": 159003,
+        "previousTotalNetInvestment": -9973,
+        "currentTotalNetInvestment": 1804,
+        "netInvestmentDifference": 11777,
+        "topSector": "Financial Services",
+        "highestNetInvestment": "Financial Services"
+      }
     }
   ]
 }
